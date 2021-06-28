@@ -1,0 +1,31 @@
+.teamsCard
+{
+    background-color: whitesmoke;    
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+    /* margin: auto;
+    justify-content: center; */
+}
+.teamsCard img 
+{
+    width: 100px;
+}
+#name
+{
+    margin: 0;
+    padding: 0;
+}
+#country
+{
+    margin: 0 0 10px 0;
+}
+#exploreBtn
+{
+    color: white;
+    background-color: blue;
+    border: none;
+    outline: none;
+    padding: 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,102 @@
+.detailsSec
+{
+    padding-bottom: 50px;
+}
+.detailsContainer
+{
+    color: rgb(238, 230, 230);
+}
+.description
+{
+    width: 90%;
+    margin: auto;
+}
+.dtMain
+{
+    background-color: #3A42FF;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+#dtName
+{
+    font-weight: 900;
+}
+#pd-0
+{
+    margin: 0;
+    padding: 0;
+}
+.textSec
+{
+    width: 80%;
+}
+#detailsTeamImg
+{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.logoSec
+{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 50px;
+}
+#twitter
+{
+    display: inline-block;
+    background-color: gray ;
+    color: pink ;
+    font-size: 2rem;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+#webSite
+{
+    display: inline-block;
+    background-color: white ;
+    color: blue ;
+    font-size: 2rem;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+#youTube
+{
+    display: inline-block;
+    background-color: red ;
+    color: rgb(255, 255, 255) ;
+    font-size: 2rem;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+    .dtMain
+    {
+        display: grid;
+        justify-content: center;
+    }
+    #detailsTeamImg
+    {
+        float: right;
+        width: 100%;
+        height: 100%;
+    }
+    .textSec
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        border-bottom: 0.5px solid;
+        text-align: center;
+    }    
+  }
